@@ -1,37 +1,64 @@
 .document_index{
     width:30%;
-    height: 95%;
+    height: 75%;
     background-color: #40e0d0;
     text-align: center;
     
     margin-left: 35%;
     margin-right: 540%;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-bottom: auto;
    
 }
         /* gif */
 .img{
     margin-top: 5%;
-    height: 70%;
+    height: 50%;
     width: 85%;
     margin-left: 1%;
 }
 
+.index_create{
+    background-color: red;
+    border: none;
+  color: black;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 8px;
+  width: 50%;
+}
 
+.index_swipe{
+    background-color: red;
+    border: none;
+  color: black;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 8px;
+  width: 50%;
+}
                                 /* fourm styling*/
 .document_forum{
     width:30%;
-    height: 95%;
+    height: 75%;
     background-color: #40e0d0;
     text-align: center;
     
     margin-left: 35%;
     margin-right: 540%;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-bottom: auto;
 }
-
+.title{
+    margin-top: 5%;
+    height: 7%;
+}
 
 input[type=text] {
   width: 95%;
@@ -39,3 +66,16 @@ input[type=text] {
   margin: 8px 0;
   box-sizing: border-box;
 }
+ .forum_create{
+    background-color: red;
+    border: none;
+  color: black;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 8px;
+  width: 50%;
+}
+ }

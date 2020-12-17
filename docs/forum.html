@@ -13,49 +13,37 @@
         Creat Account
     </h1>
     <br>
-    <br>
     <!--forum action en method nog te bepalen-->
-    <form>
-            <div>
-                <label for="firstName">Your firstname </label>
-                <br>
-                <input type="text" id="fName" name="FirstName"/>
-            </div>
-            <br>
-            <br>    
-            <div>
-                <label for="Name">Name</label>
-                <br>
-                <input type="text" id="lName" name="LastName"/>
-            </div>
-            
-            <div>
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br>
+            <!--gender-->
             <p>
-                What is your gender?
+                Gender
             </p>
-                <select id="gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Other">Other</option>
-                </select>
-            </div>
-                <br>
-                <br>
-            <div>
-                <p>
-                    Prefered Gender?
-                </p>
-                    <select id="gender">
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Both">Both</option>
-            </div>
-            
-            <br>
-                <a href="forum.html">Create account</a>
-                <button>Create acoount</button>
+            <SELECT>
+                <OPTION Value=Male">Male</OPTION>
+                <OPTION Value="Female">Female</OPTION>
+                <OPTION Value="X">X</OPTION>
+                
+            </SELECT>
 
-    </form>
+            <!--preffered gender-->
+            <p>preffered Gender</p>
+            <SELECT>
+                <OPTION Value=Male">Male</OPTION>
+                <OPTION Value="Female">Female</OPTION>
+                <OPTION Value="X">X</OPTION>
+                
+            </SELECT>
+    
+        <br>
+        <br>
+        
+        <input class="forum_create" type="submit" value="Submit">
+      </form>
     
 </article>
 
