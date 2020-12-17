@@ -1,34 +1,41 @@
 .document_index{
-    width:40%;
-    height: 100%;
+    width:30%;
+    height: 95%;
     background-color: #40e0d0;
     text-align: center;
     
-    margin-left: 30%;
+    margin-left: 35%;
     margin-right: 540%;
     margin-top: 1%;
     margin-bottom: auto;
    
 }
-
+        /* gif */
 .img{
     margin-top: 5%;
     height: 70%;
-    width: 90%;
+    width: 85%;
     margin-left: 1%;
 }
-a{
-    text-decoration: none;
-  display: inline-block;
-  padding: 8px 16px;
-}
-.ForumButton{
-   height: 10%;
-   width: 90%;
-    background-color: red;
-    color:black ;
-    font-size: large;
+
+
+                                /* fourm styling*/
+.document_forum{
+    width:30%;
+    height: 95%;
+    background-color: #40e0d0;
+    text-align: center;
+    
+    margin-left: 35%;
+    margin-right: 540%;
+    margin-top: 1%;
+    margin-bottom: auto;
 }
 
+
+input[type=text] {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
-                                /* fourm styling*/
